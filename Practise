@@ -1,0 +1,112 @@
+(base) mahendrapatel@Mac Demo % touch myProject.txt
+(base) mahendrapatel@Mac Demo % nano myProject.txt
+(base) mahendrapatel@Mac Demo % git status
+On branch mai
+Your branch is up to date with 'origin/mai'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   gitignore
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   f1.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+	myProject.txt
+
+(base) mahendrapatel@Mac Demo % git myProject.txt
+git: 'myProject.txt' is not a git command. See 'git --help'.
+(base) mahendrapatel@Mac Demo % git add  myProject.txt
+(base) mahendrapatel@Mac Demo % git commit -m "add my Project files"
+[mai 8ec6a23] add my Project files
+ 2 files changed, 1 insertion(+)
+ create mode 100644 gitignore
+ create mode 100644 myProject.txt
+(base) mahendrapatel@Mac Demo % git push origin main
+error: src refspec main does not match any
+error: failed to push some refs to 'https://github.com/mahendra7272/Demo.git'
+(base) mahendrapatel@Mac Demo % git push            
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 10 threads
+Compressing objects: 100% (2/2), done.
+Writing objects: 100% (4/4), 361 bytes | 361.00 KiB/s, done.
+Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/mahendra7272/Demo.git
+   27a00f4..8ec6a23  mai -> mai
+(base) mahendrapatel@Mac Demo % nano myProject.txt
+(base) mahendrapatel@Mac Demo % git status
+On branch mai
+Your branch is up to date with 'origin/mai'.
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	modified:   f1.txt
+	modified:   myProject.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	.gitignore
+
+no changes added to commit (use "git add" and/or "git commit -a")
+(base) mahendrapatel@Mac Demo % git add .
+(base) mahendrapatel@Mac Demo % git status
+On branch mai
+Your branch is up to date with 'origin/mai'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	new file:   .gitignore
+	modified:   f1.txt
+	modified:   myProject.txt
+
+(base) mahendrapatel@Mac Demo % git push
+Everything up-to-date
+(base) mahendrapatel@Mac Demo % nano myProject.txt
+
+  UW PICO 5.09                                           File: myProject.txt                                            Modified  
+
+this is my Learning Project.
+
+I am learning GitHub.
+
+my name is mahendra . I am From Ahmdabad. I am complated my BCA.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+^G Get Help          ^O WriteOut          ^R Read File         ^Y Prev Pg           ^K Cut Text          ^C Cur Pos           
+^X Exit              ^J Justify           ^W Where is          ^V Next Pg           ^U UnCut Text        ^T To Spell          

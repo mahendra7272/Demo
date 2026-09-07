@@ -1,1 +1,2 @@
-Learning Git
+Learning Git.
+this is my first project.
