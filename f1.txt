@@ -1,2 +1,4 @@
 Learning Git.
 this is my first project.
+ 
+I am understand GitHub.
